@@ -1,8 +1,0 @@
-[build]
-builder = "RAILPACK"
-buildCommand = "cd mcp && npm install"
-
-[deploy]
-startCommand = "cd mcp && npm start"
-restartPolicyType = "ON_FAILURE"
-restartPolicyMaxRetries = 10
